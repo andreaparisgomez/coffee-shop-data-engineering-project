@@ -97,9 +97,11 @@ LIMIT 5;
 
 ## Technologies Used
 
-* PostgreSQL
-* pgAdmin (schema design and ERD generation)
-* SQL
+- PostgreSQL  
+- pgAdmin (schema design and ERD generation)  
+- IBM Db2 on Cloud (data exploration and export)  
+- phpMyAdmin (data inspection and validation)  
+- SQL  
 
 ---
 
