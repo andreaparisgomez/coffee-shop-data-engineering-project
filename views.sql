@@ -1,5 +1,5 @@
--- Create a view to list staff and their locations,
--- excluding executive roles (CEO and CFO)
+-- Task: Create a view for payroll company
+-- Purpose: Provide staff and location data excluding executive roles
 
 CREATE VIEW staff_locations_view AS
 SELECT 
@@ -10,5 +10,4 @@ SELECT
 FROM staff
 WHERE "position" NOT IN ('CEO', 'CFO');
 
--- Example query to view data from the view
 SELECT * FROM staff_locations_view;
